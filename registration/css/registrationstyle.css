@@ -1,0 +1,176 @@
+body {
+    background-image: url("../css/images/building.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* navbar starts */
+.navbar {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.navbar-toggler {
+    background-color: green;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.navbar-nav li a:hover {
+    background-color: green;
+    text-decoration: underline;
+}
+
+.navbar .current {
+    background-color: red;
+}
+
+/* navbar ends */
+
+/* form starts */
+h2 {
+    text-decoration: underline;
+    color: rgb(105, 26, 209);
+    font-weight: bold;
+}
+
+form {
+    margin: auto;
+    max-width: 370px;
+    border: 3px solid #37c294;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    background: #ece6db;
+    opacity: 0.9;
+    font-family: cursive;
+    box-shadow: 2px 2px 5px rgb(40, 150, 7);
+}
+
+form:hover {
+    box-shadow: 4px 5px 10px rgb(8, 241, 47);
+}
+
+label {
+    margin-left: 20px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 300px;
+    padding: 8px 7px;
+    margin: 8px 0;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 3px solid rgb(14, 228, 68);
+    border-radius: 8px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    background-color: azure;
+    color: white;
+    border: 2px solid rgb(37, 6, 122);
+    outline: none;
+    box-shadow: none;
+}
+
+input[type=checkbox] {
+    margin-left: 20px;
+}
+
+label[for=agree] {
+    margin-left: 0;
+}
+
+button[type=submit] {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 4px 2px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover{
+    background-color: rgb(241, 232, 232);
+    color: green;
+    font-weight: bolder;
+    border: 2px solid green;
+    border-radius: 7px;
+    padding: 6px 7px;
+}
+
+/* form ends */
+
+/* footer starts */
+.panel-footer {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    font-family: "Comic Sans MS",
+        cursive,
+        sans-serif;
+}
+
+#hours {
+    font-size: 23px;
+}
+
+#hours span {
+    font-size: 30px;
+}
+
+#address {
+    font-size: 23px;
+}
+
+#address span {
+    font-size: 30px;
+}
+
+#map {
+    font-size: 23px;
+}
+
+#map span {
+    font-size: 30px;
+}
+
+.text-center {
+    font-size: 25px;
+}
+
+/* footer ends */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    body {
+        background-image: none;
+    }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+    input[type=text],
+    input[type=email] {
+        width: 270px;
+    }
+
+    body {
+        background-image: none;
+    }
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Chilanka&family=Dancing+Script:wght@700&family=Pacifico&family=Permanent+Marker&family=Piedra&family=Playball&family=Playfair+Display:wght@500&family=Sansita+Swashed:wght@400;600&display=swap');
+
+body {
+    background-color: rgb(198, 228, 65);
+}
+
+/* navbar starts */
+.navbar {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.navbar-toggler {
+    background-color: green;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.navbar-nav li a:hover {
+    background-color: green;
+    text-decoration: underline;
+}
+
+.navbar .current {
+    background-color: red;
+}
+/* navbar ends */
+
+.img-fluid{
+    border-radius: 6px;
+}
+
+.catacombs{
+    font-style: 14px;
+    font-family: cursive;
+}
+
+.catacombs h2{
+    font-family: 'Bubblegum Sans',
+    cursive;
+}
+
+.catacombs h5{
+    font-family: "Comic Sans MS",
+    cursive,
+    sans-serif;
+}
+
+.catacombs button{
+    background: rgb(129, 7, 7);
+    opacity: 0.9;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+.catacombs button:hover{
+    background: white;
+    color: rgb(129, 7, 7);
+    font-weight: bolder;
+}
+
+/* footer starts */
+.panel-footer {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    font-family: "Comic Sans MS",
+    cursive,
+    sans-serif;
+}
+
+#hours {
+    font-size: 23px;
+}
+
+#hours span {
+    font-size: 30px;
+}
+
+#address {
+    font-size: 23px;
+}
+
+#address span {
+    font-size: 30px;
+}
+
+#map {
+    font-size: 23px;
+}
+
+#map span {
+    font-size: 30px;
+}
+
+.text-center {
+    font-size: 25px;
+}
+/* footer ends */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    .catacombs{
+        margin-top: 10px;
+    }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    .catacombs {
+        margin-top: 10px;
+    }
+}
