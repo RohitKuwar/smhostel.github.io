@@ -23,11 +23,14 @@ body {
 
 .navbar-nav li a:hover {
     background-color: green;
-    text-decoration: underline;
+    border-radius: 4px;
+    font-size: 26px;
+    
 }
 
 .navbar .current {
     background-color: red;
+    border-radius: 2px;
 }
 /* navbar ends */
 
