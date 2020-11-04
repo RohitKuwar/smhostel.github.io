@@ -59,6 +59,13 @@ h1{
     vertical-align: middle;
     width: 100%;
     border-radius: 5px;
+    border: 2px solid rgb(8, 22, 105);
+    padding: 5px;
+    background-color: rgb(88, 197, 166);
+}
+
+.column img:hover{
+    filter: grayscale(0.2) brightness(0.9);
 }
 
 /* footer starts */
