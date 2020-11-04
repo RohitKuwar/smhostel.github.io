@@ -79,7 +79,6 @@ section ul li {
 .carousel-inner img {
     width: 100%;
     height: 100%;
-    padding: 10px 10px;
 }
 
 .carousel-control-prev-icon,
@@ -209,6 +208,10 @@ section ul li {
         padding: 8px;
         font-size: 22px;
     }
+    
+    .carousel-inner img{
+        padding: 10px 10px;
+    }
 }
 
 /********** Medium devices only **********/
@@ -216,6 +219,10 @@ section ul li {
     .card-body a:hover {
         padding: 8px;
         font-size: 22px;
+    }
+    
+    .carousel-inner img{
+        padding: 10px 10px;
     }
 }
 
