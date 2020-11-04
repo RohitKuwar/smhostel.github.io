@@ -382,6 +382,10 @@ section ul li {
     #rooms i {
         color: rgb(5, 119, 53);
     }
+    
+    .card:hover{
+        transform: none;
+    }
 }
 
 @media (max-width: 375px) {
@@ -394,5 +398,9 @@ section ul li {
     #rooms i {
         color: rgb(5, 119, 53);
         font-size: 40px;
+    }
+    
+    .card:hover{
+        transform: none;
     }
 }
