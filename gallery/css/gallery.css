@@ -110,3 +110,23 @@ h1{
 }
 
 /* footer ends */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    .column img {
+        padding: 2px;
+    }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    .column img{
+        padding: 2px;
+    }
+}
+
+@media (max-width: 375px) {
+    .column img {
+        padding: 2px;
+    }
+}
