@@ -48,14 +48,3 @@ function funmobile() {
     }
 
 }
-
-function funcollege() {
-
-    var clg = document.getElementById('colleges').value;
-    var selection = "SGGSIE&T" || "SRTMUN" || "Sahyog" || "Gramin Polytechnic" || "Other";
-
-    if (selection == clg) {
-        document.getElementById('colleges').style = "background-color:green;color:yellow";
-    }
-
-}
