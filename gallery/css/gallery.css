@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(216, 235, 230);
+    background: linear-gradient(yellowgreen, cyan);
 }
 /* navbar starts */
 .navbar {
