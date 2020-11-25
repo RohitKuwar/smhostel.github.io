@@ -5,6 +5,18 @@ body {
     font-size: 20px;
 }
 
+#loading {
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    background-image: url("../css/SlightWhimsicalHalicore-small.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+}
+
 /* navbar starts */
 .navbar {
     background-color: black;
