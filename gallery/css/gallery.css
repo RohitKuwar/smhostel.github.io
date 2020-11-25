@@ -19,14 +19,14 @@ body{
 }
 
 .navbar-nav li a:hover {
-    background-color: green;
+    background: linear-gradient(green, black);
     border-radius: 4px;
     font-size: 26px;
     
 }
 
 .navbar .current {
-    background-color: red;
+    background: linear-gradient(black, red);
     border-radius: 2px;
 }
 
