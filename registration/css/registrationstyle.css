@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,300;1,300&display=swap');
+
 body {
     background-image: url("../css/images/building.jpg");
     background-repeat: no-repeat;
@@ -53,7 +55,8 @@ form {
     position: relative;
     background: linear-gradient(cyan, white);
     opacity: 0.9;
-    font-family: cursive;
+    font-family: 'Texturina',
+    serif;
     /* box-shadow: 2px 2px 5px rgb(40, 150, 7); */
 }
 
