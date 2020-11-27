@@ -173,6 +173,10 @@ button[type=submit]:hover {
     form {
         background: rgba(0, 0, 0, 1);
     }
+    
+    form:hover {
+        box-shadow: 4px 5px 10px orange;
+    }
 
 }
 
@@ -192,5 +196,9 @@ button[type=submit]:hover {
 
     form {
         background: rgba(0, 0, 0, 1);
+    }
+    
+    form:hover {
+        box-shadow: 4px 5px 10px orange;
     }
 }
