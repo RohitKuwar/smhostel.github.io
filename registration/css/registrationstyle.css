@@ -28,7 +28,7 @@ body {
     background: linear-gradient(green, black);
     border-radius: 4px;
     font-size: 26px;
-    
+
 }
 
 .navbar .current {
@@ -42,10 +42,13 @@ body {
 h2 {
     text-decoration: underline;
     color: rgb(105, 26, 209);
+    color: cyan;
     font-weight: bold;
 }
 
 form {
+    background: rgba(0, 0, 0, 0.6);
+    color: cyan;
     margin: auto;
     max-width: 370px;
     /* border: 3px solid #37c294; */
@@ -53,10 +56,8 @@ form {
     padding: 10px;
     border-radius: 10px;
     position: relative;
-    background: linear-gradient(cyan, white);
-    opacity: 0.9;
     font-family: 'Texturina',
-    serif;
+        serif;
     /* box-shadow: 2px 2px 5px rgb(40, 150, 7); */
 }
 
@@ -71,6 +72,7 @@ label {
 
 input[type=text],
 input[type=email] {
+    background: black;
     width: 300px;
     padding: 8px 7px;
     margin: 8px 0;
@@ -83,11 +85,11 @@ input[type=email] {
 
 input[type=text]:focus,
 input[type=email]:focus {
-    background-color: azure;
-    color: white;
-    border: 2px solid rgb(37, 6, 122);
+    background-color: black;
+    border: 2px solid maroon;
     outline: none;
     box-shadow: none;
+    color: white;
 }
 
 input[type=checkbox] {
@@ -99,23 +101,20 @@ label[for=agree] {
 }
 
 button[type=submit] {
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 8px 8px;
+    border: 2px solid cyan;
+    color: cyan;
+    padding: 5px 5px;
     text-decoration: none;
     margin: 4px 2px;
     margin-left: 20px;
     cursor: pointer;
 }
 
-button[type=submit]:hover{
-    background-color: rgb(241, 232, 232);
-    color: green;
+button[type=submit]:hover {
+    background-color: cyan;
+    color: black;
     font-weight: bolder;
-    border: 2px solid green;
     border-radius: 7px;
-    padding: 6px 7px;
 }
 
 /* form ends */
@@ -167,7 +166,14 @@ button[type=submit]:hover{
 @media (max-width: 767px) {
     body {
         background-image: none;
+        /* background: linear-gradient(orangered, gold); */
+        background: linear-gradient(greenyellow, cyan);
     }
+
+    form {
+        background: rgba(0, 0, 0, 1);
+    }
+
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -180,5 +186,11 @@ button[type=submit]:hover{
 
     body {
         background-image: none;
+        /* background: linear-gradient(orangered, gold); */
+        background: linear-gradient(greenyellow, cyan);
+    }
+
+    form {
+        background: rgba(0, 0, 0, 1);
     }
 }
