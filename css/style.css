@@ -359,7 +359,7 @@ section ul li {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
     #para {
-        height: 400px;
+        height: 450px;
         overflow: auto;
         scrollbar-color: rgb(26, 91, 212) black;
         scrollbar-width: thin;
