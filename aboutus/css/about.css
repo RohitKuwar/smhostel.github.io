@@ -2,8 +2,10 @@
 
 body {
     background-image: url('beautiful_sunset.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 /* navbar starts */
