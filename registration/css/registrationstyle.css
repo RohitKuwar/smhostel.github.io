@@ -118,6 +118,12 @@ button[type=submit]:hover {
     border-radius: 7px;
 }
 
+.modal-content {
+    color: black;
+    font-family: Georgia,
+        serif;
+}
+
 /* form ends */
 
 /* footer starts */
