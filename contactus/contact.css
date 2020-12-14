@@ -135,30 +135,40 @@ body {
     background: #4267B2;
     color: white;
     box-shadow: 5px 0px 5px rgb(134, 133, 133);
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
 }
 
 .wrapper1 div:nth-child(2):hover i {
     background: #1DA1F2;
     color: white;
     box-shadow: 5px 0px 5px rgb(134, 133, 133);
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
 }
 
 .wrapper1 div:nth-child(3):hover i {
     background: #E1306C;
     color: white;
     box-shadow: 5px 0px 5px rgb(134, 133, 133);
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
 }
 
 .wrapper1 div:nth-child(4):hover i {
     background: #063857;
     color: white;
     box-shadow: 5px 0px 5px rgb(134, 133, 133);
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
 }
 
 .wrapper1 div:nth-child(5):hover i {
     background: #ff0000;
     color: white;
     box-shadow: 5px 0px 5px rgb(134, 133, 133);
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
 }
 
 /* footer starts */
