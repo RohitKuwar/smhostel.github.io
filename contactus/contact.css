@@ -108,6 +108,8 @@ body {
 .wrapper1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-right: 25px;
 }
 
 .wrapper1 i {
